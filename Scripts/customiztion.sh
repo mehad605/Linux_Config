@@ -58,6 +58,7 @@ mv $HOME/Linux_Config/Fonts/* $HOME/.local/share/fonts
 mv $HOME/Linux_Config/configs/Zathura $HOME/.config/
 mv $HOME/Linux_Config/configs/kitty $HOME/.config/
 mv $HOME/Linux_Config/configs/.zshrc $HOME
+mv $HOME/Linux_Config/.aliases $HOME
 mv $HOME/Linux_Config/configs/grubtheme.sh $HOME/Scripts/Top-Bootloader-Themes/
 mv $HOME/Linux_Config/configs/bootloader_themes/dedsec $HOME/Scripts/Top-Bootloader-Themes/themes/
 
