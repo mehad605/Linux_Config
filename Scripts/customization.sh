@@ -20,7 +20,7 @@ done
 mkdir -p ~/.themes ~/.icons ~/.local/share/icons ~/.local/share/fonts ~/.local/share/gnome-shell/extensions ~/Scripts
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $HOME/Scripts/powerlevel10k
-git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes $HOME/Scripts/Top-Bootloader-Themes
+# git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes $HOME/Scripts/Top-Bootloader-Themes
 
 #cloning shell themes:
 git clone https://github.com/vinceliuice/Layan-gtk-theme $HOME/Layan-gtk-theme
@@ -55,13 +55,13 @@ mv $HOME/Vimix-cursors/Vimix-cursors ~/.icons
 
 
 mv $HOME/Linux_Config/Fonts/* $HOME/.local/share/fonts
-mv $HOME/Linux_Config/configs/Zathura $HOME/.config/
+mv $HOME/Linux_Config/configs/zathura $HOME/.config/
 mv $HOME/Linux_Config/configs/kitty $HOME/.config/
 mv $HOME/Linux_Config/configs/fastfetch $HOME/.config/
 mv $HOME/Linux_Config/configs/.zshrc $HOME
 mv $HOME/Linux_Config/.aliases $HOME
-mv $HOME/Linux_Config/configs/grubtheme.sh $HOME/Scripts/Top-Bootloader-Themes/
-mv $HOME/Linux_Config/configs/bootloader_themes/dedsec $HOME/Scripts/Top-Bootloader-Themes/themes/
+mv $HOME/Linux_Config/configs/bootloader_themes $HOME/Scripts/
+
 
 
 echo 'source ~/Scripts/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc

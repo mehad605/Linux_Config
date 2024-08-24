@@ -111,7 +111,7 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 
 
 # Define paths to your scripts
-CUSTOMIZATION_SCRIPT="$HOME/Linux_Config/Scripts/customiztion.sh"
+CUSTOMIZATION_SCRIPT="$HOME/Linux_Config/Scripts/customization.sh"
 VISIT_SITES_SCRIPT="$HOME/Linux_Config/Scripts/visit_sites.sh"
 
 # Open GNOME Terminal with multiple tabs for different tasks
