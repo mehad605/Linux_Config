@@ -1,0 +1,119 @@
+[control-center]
+last-panel='background'
+window-state=(980, 720, false)
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST']
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.eog.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/Saffron_by_Rakesh_Yadav.png'
+picture-uri-dark='file:///usr/share/backgrounds/Saffron_by_Rakesh_Yadav.png'
+primary-color='#000000'
+secondary-color='#000000'
+
+[desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[desktop/interface]
+clock-format='12h'
+color-scheme='prefer-dark'
+cursor-theme='Vimix-cursors'
+font-hinting='slight'
+gtk-theme='Sweet'
+icon-theme='Reversal-green-dark'
+show-battery-percentage=true
+
+[desktop/privacy]
+report-technical-problems=true
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/Saffron_by_Rakesh_Yadav.png'
+primary-color='#000000'
+secondary-color='#000000'
+
+[desktop/session]
+idle-delay=uint32 240
+
+[desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+theme='Sweet'
+
+[evolution-data-server]
+migrated=true
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(730, 550)
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=600
+sleep-inactive-ac-type='suspend'
+
+[shell]
+enabled-extensions=['widgets@aylur', 'caffeine@patapon.info', 'compiz-windows-effect@hermes83.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'compiz-alike-magic-lamp-effect@hermes83.github.com', 'burn-my-windows@schneegans.github.com', 'blur-my-shell@aunetx', 'rounded-window-corners@yilozt', 'Resource_Monitor@Ory0n']
+last-selected-power-profile='power-saver'
+welcome-dialog-last-shown-version='43.0'
+
+[shell/extensions/aylurs-widgets]
+background-clock=false
+battery-bar-padding-left=-1
+battery-bar-roundness=20
+battery-bar-show-icon=false
+battery-bar-show-percentage=true
+battery-bar-width=70
+dash-board=false
+dash-links-names=['reddit', 'youtube', 'gmail', 'twitter', 'github']
+dash-links-urls=['https://www.reddit.com/', 'https://www.youtube.com/', 'https://www.gmail.com/', 'https://twitter.com/', 'https://www.github.com/']
+date-menu-tweaks=true
+dynamic-panel=true
+quick-settings-tweaks=true
+window-headerbar=false
+
+[shell/extensions/burn-my-windows]
+active-profile='/home/maruf/.config/burn-my-windows/profiles/1680137219857900.conf'
+last-extension-version=27
+preview-effect=''
+
+[shell/extensions/caffeine]
+indicator-position-max=1
+
+[shell/extensions/dash-to-dock]
+background-opacity=0.69999999999999996
+click-action='minimize-or-previews'
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+intellihide=true
+
+[shell/extensions/ding]
+show-home=false
+
+[shell/extensions/rounded-window-corners]
+custom-rounded-corner-settings=@a{sv} {}
+global-rounded-corner-settings={'padding': <{'left': <uint32 1>, 'right': <uint32 1>, 'top': <uint32 1>, 'bottom': <uint32 1>}>, 'keep_rounded_corners': <{'maximized': <false>, 'fullscreen': <false>}>, 'border_radius': <uint32 12>, 'smoothing': <uint32 0>}
+settings-version=uint32 5
+
+[shell/extensions/user-theme]
+name='MochaTheme-4'
+
+[system/location]
+enabled=false

@@ -1,0 +1,4 @@
+alias kt="kitty +kitten themes --reload-in=all"
+alias ku="curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin"
+alias rmkt="rm -r ~/.local/kitty.app/"
+alias gt="~/Scripts/Top-Bootloader-Themes/grubtheme.sh"

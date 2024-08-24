@@ -1,0 +1,19 @@
+
+
+#creating directories
+mkdir -p ~/Scripts ~/.themes ~/.icons ~/.local/share/icons ~/Pictures/Wallpapers 
+mkdir -p  ~/.local/share/gedit/styles ~/.config/kitty ~/.config/zathura/ ~/.config/Code/User/
+mkdir -p ~/.local/share/fonts
+
+#creating a history file for zsh
+touch "$HOME/.cache/zshhistory"
+
+
+
+
+
+
+
+
+
+
