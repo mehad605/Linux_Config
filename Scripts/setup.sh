@@ -38,7 +38,7 @@ sudo apt update
 ########################################
 #     INSTALLING PACKAGES WITH APT     #
 ########################################
-
+packages_list="$HOME/Linux_Config/packages.lst"
 #Flag to check if any errors occurred
 error_occurred=false
 
@@ -56,7 +56,7 @@ while IFS= read -r package; do
     fi
     # Clear the temporary error log for the next package
     > temp_error_log
-done < packages.lst
+done < "$packages_list"
 
 # Clean up temporary error log
 rm -f temp_error_log
@@ -111,8 +111,8 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 
 
 # Define paths to your scripts
-CUSTOMIZATION_SCRIPT="./customization.sh"
-VISIT_SITES_SCRIPT="./visit_sites.sh"
+CUSTOMIZATION_SCRIPT="$HOME/Linux_Config/Scripts/customiztion.sh"
+VISIT_SITES_SCRIPT="$HOME/Linux_Config/Scripts/visit_sites.sh"
 
 # Open GNOME Terminal with multiple tabs for different tasks
 gnome-terminal \
