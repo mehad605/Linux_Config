@@ -20,7 +20,7 @@ done
 mkdir -p ~/.themes ~/.icons ~/.local/share/icons ~/.local/share/fonts ~/.local/share/gnome-shell/extensions ~/Scripts
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $HOME/Scripts/powerlevel10k
-# git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes $HOME/Scripts/Top-Bootloader-Themes
+
 
 #cloning shell themes:
 git clone https://github.com/vinceliuice/Layan-gtk-theme $HOME/Layan-gtk-theme
